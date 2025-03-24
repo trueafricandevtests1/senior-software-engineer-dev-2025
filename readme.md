@@ -22,11 +22,11 @@ This project is a high-performance ride-sharing backend designed for scalability
 ```
 📦 ride-sharing-backend
 ├── 📂 src
-│   ├── 📄 main.go (or app.js / server.py) → API entry point
-│   ├── 📄 matching.go (or matching.ts / matching.py) → Optimized ride-matching algorithm
-│   ├── 📄 api.go (or api.ts / api.py) → External API integration
-│   ├── 📄 auth.go (or auth.ts / auth.py) → JWT authentication & security
-│   ├── 📄 caching.go (or caching.ts / caching.py) → Redis caching strategy
+│   ├── 📄 main.go → API entry point
+│   ├── 📄 matching.go → Optimized ride-matching algorithm
+│   ├── 📄 api.go  → External API integration
+│   ├── 📄 auth.go  → JWT authentication & security
+│   ├── 📄 caching.go  → Redis caching strategy
 │   ├── 📄 config.env → Environment variables
 ├── 📂 tests → Unit, integration, and load tests
 ├── 📄 Dockerfile → Containerization setup
@@ -61,12 +61,6 @@ docker-compose up --build
 # If using Go
 go run main.go
 
-# If using Node.js
-npm install && npm start
-
-# If using Python
-pip install -r requirements.txt
-python app.py
 ```
 
 ---
@@ -100,10 +94,6 @@ docker push your-container-registry/ride-sharing
 ```bash
 # Run unit tests
 go test ./...
-# or
-npm test
-# or
-pytest
 ```
 
 ---
