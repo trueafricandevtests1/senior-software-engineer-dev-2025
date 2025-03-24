@@ -4,8 +4,8 @@
 This project is a high-performance ride-sharing backend designed for scalability and reliability, demonstrating:
 - **Advanced Algorithm Design** → Efficiently assigning drivers to riders using optimized geospatial queries.
 - **API Integrations** → Fetching real-time driver locations from geolocation APIs with caching strategies.
-- **Cloud-Native Deployment** → Kubernetes-based deployment with auto-scaling and CI/CD automation.
-- **Security & Performance Best Practices** → JWT authentication, rate-limiting, and observability.
+- **Deployment** → Docker deployment with auto-scaling and CI/CD automation.
+- **Security & Performance Best Practices** → JWT / Paseto authentication, rate-limiting, and observability.
 
 ---
 
@@ -31,7 +31,6 @@ This project is a high-performance ride-sharing backend designed for scalability
 ├── 📂 tests → Unit, integration, and load tests
 ├── 📄 Dockerfile → Containerization setup
 ├── 📄 docker-compose.yml → Local development setup
-├── 📂 k8s → Kubernetes deployment manifests
 ├── 📄 .github/workflows/ci-cd.yml → CI/CD automation
 ├── 📄 README.md → Documentation
 ```
@@ -120,11 +119,6 @@ pytest
 🔹 Implement **real-time ride tracking** using WebSockets.  
 🔹 Add **multi-region failover** for high availability.  
 🔹 Implement **dynamic pricing** based on demand.
-
----
-
-## 🏆 Contributing
-Pull requests are welcome! Please follow the coding guidelines and submit PRs with relevant tests.
 
 ---
 
