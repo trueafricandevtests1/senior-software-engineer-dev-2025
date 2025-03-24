@@ -129,4 +129,4 @@ Pull requests are welcome! Please follow the coding guidelines and submit PRs wi
 ---
 
 ## 📜 License
-MIT License © 2025 Your Name/Company
+MIT License © 2025 True African Uganda Limited
